@@ -1,0 +1,38 @@
+<!--Rivaldito Ilham Pratama -->
+<!--MI-1F-->
+<html>
+    <head>
+		<meta charset="UTF-8">
+        <title>PROFILE MAKANAN</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+
+    <body>
+		<div class="header">
+			<div class="navi">
+				<ul>
+					<li><a href="index.php">HOME</a></li>
+					<li><a href="CV.html">BIODATA PEMILIK</a></li>
+					<li><a href="Profile.html">PROFIL MAKANAN</a></li>
+					<li><a href="order.php">PEMESANAN</a></li>				
+				</ul>
+			</div>
+		</div>
+		<h2 align="center">MAKANAN HITZ MANG OTID</h2><br>
+		<center><table border="1" height="2" widht="10"><center>
+		<br>
+		<br>
+		<h4 align="center">GEPREK SUPER MANG OTID</h4><br>
+		<center><table border="1" height="2" widht="10"><center>
+				<img src="gegrek.jpg" widht=40 height=300><br>
+		<br>
+		<h4 align="center">NASI GORENG MANG OTID</h4><br>
+		<center><table border="1" height="2" widht="10"><center>
+		<img src="nasigoreng.jpg" widht=40 height=250><br>
+		<br>
+		<h4 align="center">MIE SUPER PEDAS MANG OTID</h4><br>
+		<center><table border="1" height="2" widht="10"><center>
+				<img src="miepedas.jpg" widht=40 height=300>
+		</body>
+	</html>

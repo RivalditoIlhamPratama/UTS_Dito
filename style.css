@@ -1,0 +1,227 @@
+*{
+ padding : 0;
+ margin : 0;
+ box-sizing : border-box;
+}
+body{
+ background: ;
+ font-family : "Trebuchet MS";
+ font-size : 15px;
+ }
+p{
+ margin-bottom : 20px;
+ line-height : 1.5em;
+}
+h3{
+ margin-bottom : 20px;
+ border-bottom : 1px solid #aaa;
+}
+a{
+	text-decoration: none; 
+	font-size: 20px;
+	font-family: sans-serif;
+	padding: 14px 10px
+} 
+
+ul{
+	padding: 15px
+}
+li{
+	list-style: none; 
+	display: inline;
+	}
+li a{
+	background: #3b8686; 
+	color:#d4d4d4;
+	}
+li a:hover{
+	background: #79bd9a; 
+	color:#fff;
+	}
+	
+
+ .table1 {
+    font-family: sans-serif;
+    color: #444;
+    border-collapse: collapse;
+    width: 60%;
+    border: 3px solid #3b8686;
+}
+
+.table1 tr th{
+    background: #35A9DB;
+    color: #fff;
+    font-weight: normal;
+}
+
+.table1, th, td {
+    padding: 8px 20px;
+    text-align: center;
+}
+
+.table1 tr:hover {
+    background-color: #f5f5f5;
+}
+
+.table1 tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.navi{
+	background: #3b8686	; 
+	height: 55px}
+}
+
+a:hover{
+ color : #666;
+}
+
+.container{
+ max-width : 1500px;
+ margin : 20px auto;
+ background : url('Baru.jpg');
+ overflow : hidden;
+ padding : 10px;
+ /*url('Baru.jpg');*/
+}
+.header{
+ border : 1px solid #dedede;
+ padding : 10px;
+ margin : 10px;
+ background : ;
+}
+/* main */
+ .left{
+ position: relative;
+ top: 500px;
+ width : 25%;
+ border : 1px solid #dedede;
+ padding : 10px;
+ margin : 10px;
+ float : left;
+ }
+ .left ul{
+ list-style-type : none;
+ }
+ .left ul li{
+ display : block;
+ }
+ .left ul li a{
+ display :block;
+ border-bottom : 1px solid #dedede;
+ margin-bottom : 10px;
+ padding : 10px 5px;
+ }
+ .left ul li a:hover{
+ color:#461AF3;
+ }
+.middle{
+ position: relative;
+ top: 500px;
+ width : 45%;
+ border : 1px solid #dedede;
+ padding : 10px;
+ margin : 10px;
+ float : left;
+ }
+ .middle img{
+ max-width : 100%;
+ height : auto;
+ }
+ .middle a{
+ font-wight:bold;
+ }
+.right{
+ position: relative;
+ top: 500px;
+ width : 25%;
+ border : 1px solid #dedede;
+ padding : 10px;
+ margin : 10px;
+ float : left;
+ }
+ .right ul{
+ list-style-type : none;
+ }
+ .right ul li{
+ display : block;
+ }
+ .right ul li a{
+ display :block;
+ border-bottom : 1px solid #dedede;
+ margin-bottom : 10px;
+ padding : 10px 5px;
+ }
+ .right ul li a:hover{
+ color:#461AF3;
+ }
+ .footer{
+ position: relative;
+ top: 500px;
+ clear : both;
+ border : 1px solid #dedede;
+ padding : 10px;
+ margin : 10px;
+ background : #3b8686;
+ }
+ 
+ 
+ 
+@media screen and (max-width:959px){
+ #container{
+ width : 100%;
+ }
+ #left-column{
+ width : 70%;
+ }
+ #right-column{
+ width : 30%;
+ }
+ img{
+ width : 100%;
+ }
+}
+/*MEDIA QUERIES ( Responsive )
+*******************************************/
+@media screen and (max-width:1080px)
+{
+ .container{
+ width : 100%;
+ }
+ .left{
+ width : 25%;
+ background : #D6CCFE;
+ }
+ .middle{
+ width : 68%;
+ float : right;
+ }
+ .right{
+ clear : both;
+ padding : 1% 4%;
+ width : auto;
+ float : none;
+ background : #D6CCFE;
+ }
+}
+/* untuk ukuran layar 700px kebawah */
+@media screen and (max-width: 780px)
+{
+ .header,
+ .footer{
+ text-align : center;
+ }
+ .left {
+ width : auto;
+ float : none;
+ }
+ .middle {
+ width : auto;
+ float : none;
+ }
+ .right {
+ width : auto;
+ float : none;
+ }
+ }
+ 

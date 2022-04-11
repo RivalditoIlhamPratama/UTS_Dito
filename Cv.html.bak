@@ -1,0 +1,78 @@
+<!--Rivaldito Ilham Pratama -->
+<!--MI-1F-->
+<html>
+    <head>
+		<meta charset="UTF-8">
+        <title>Biodata</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+
+    <body bgcolor="grey">
+		<div class="header">
+			<div class="navi">
+				<ul>
+					<li><a href="index.php">HOME</a></li>
+					<li><a href="CV.html">BIODATA PEMILIK</a></li>
+					<li><a href="Profile.html">PROFIL MAKANAN</a></li>
+					<li><a href="order.php">PEMESANAN</a></li>				
+				</ul>
+			</div>
+		</div>
+		<h2 align="center">PEMILIK CAFE MANG OTID</h2><br>
+		<center><table border="2" height="50" widht="200"><center>
+			<tr>
+				<td colspan="3" align="center">BIODATA LENGKAP</td>
+			</tr>
+			<tr>
+				<td>Nama</td>
+				<td>Rivaldito Ilham Pratama</td>
+				<td rowspan="7"><img src="/UTS_Dito/img/bunga2.jpg" width="300" height="350" </td>
+			</tr>
+			<tr>
+				<td>Tempat Tanggal Lahir</td>
+				<td>Probolinggo, 09 juli 2002</td>
+			</tr>
+			<tr>
+				<td>Agama</td>
+				<td>Islam</td>
+			</tr>
+			<tr>
+				<td>Hobby</td>
+				<td>Badmiinton</td>
+			</tr>
+			<tr>
+				<td>Cita-Cita</td>
+				<td>Sukses di Dunia Bisnis</td>
+			</tr>
+			<tr>
+				<td>NIM</td>
+				<td>2131710146</td>
+			</tr>
+			<tr>
+				<td>Program Studi</td>
+				<td>D3 Manajemen Informatika</td>
+			</tr>
+			<tr>
+				<td>Jurusan</td>
+				<td>Teknologi Informasi</td>
+			</tr>
+			<tr>
+				<td>Alamat</td>
+				<td>Kraksaan Probolinggo</td>
+			</tr>
+			<tr>
+				<td>Motto</td>
+				<td>Manjadda Wajadda</td>
+			</tr>
+			<tr>
+				<td>Bisnis</td>
+				<td>Direktur Cafe Mang Otid Kraksaan</td>
+			</tr>
+		</table>
+		<div class="footer">
+		<p align="center">Copyright &copy; Cafe Mang Otid <p>
+	</div>
+	</body>
+</html>
+			
